@@ -3,18 +3,23 @@ html
   head
     title Zack Dever
     link(type='text/css', rel='stylesheet', href='./css/index.css')
+    script(type='text/javascript', src='//use.typekit.net/hav0ecf.js')
+    script(type='text/javascript')
+      try{Typekit.load();}catch(e){}
   body
+    #grey-strip
     #all
-      h1 hello, world.
+      h1 Hello, world.
       p My name is Zack and I am a software developer,
         br
         <i>aspiring to be</i> avid backpacker, and supporter of the oxford comma.
       p You may find me bumbling around Baton Rouge, Louisiana,
         br
         though you may find the below more expedient.
-      p#contact
+      #contact
         a(href='mailto:zack@zackdever.com', title='zack@zackdever.com')#gmail.contactlink
-        a(href='https://twitter.com/#!/zackdever', title='@zackdever')#twitter.contactlink
+        //- a(href='https://twitter.com/#!/zackdever', title='@zackdever')#twitter.contactlink
+        a(href='https://twitter.com/#!/zackdever', title='@zackdever')#github.contactlink
         a(href='http://stackoverflow.com/users/962091/zever', title='zever')#stackoverflow.contactlink
         p If you happen to use Basecamp and Chrome, do check out my&nbsp;
           a(href='https://chrome.google.com/webstore/detail/ggkjkkoebodihinoacoocgnkbjojhnpf?utm_source=chrome-ntp-icon'

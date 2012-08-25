@@ -1,26 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #999;
+}
+a:hover {
+  color: #333;
+}
+body {
+  border-top: thick black solid;
+}
+#grey-strip {
+  height: 30px;
+  background: #efefef;
+  width: 100%;
+  border-bottom: thin solid #dfdfdf;
+}
 #all {
   padding-top: 100px;
   width: 700px;
   margin: auto;
-  font-family: sans-serif;
+  font-family: 'ff-meta-web-pro', helvetica, arial, sans-serif;
+}
+h1 {
+  font-size: 100px;
+  font-weight: 700;
+  letter-spacing: -3px;
+}
+p {
+  font-size: 16px;
+  line-height: 25px;
+  /*margin-left: 50px;*/
 }
 .contactlink {
-  margin: 0;
   padding: 0;
-  display: inline-block;
-  width: 64px;
-  height: 64px;
+  float: left;
+  width: 100px;
+  height: 100px;
   background-position: bottom;
-  margin-right: 140px;
+  background-repeat: no-repeat;
+  margin: 50px 0 50px 50px;
 }
 .contactlink:hover {
-  background-position: 0 0;
+  -webkit-transition: -webkit-filter .5s;
+  -webkit-filter: invert(1);
+}
+#contact p {
+  clear: both;
 }
 #gmail {
   background-image: url(../images/gmail.png);
 }
 #twitter {
   background-image: url(../images/twitter.png);
+}
+#github {
+  background-image: url(../images/github.png);
 }
 #stackoverflow {
   background-image: url(../images/stackoverflow.png);
