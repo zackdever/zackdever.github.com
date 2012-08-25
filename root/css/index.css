@@ -1,0 +1,27 @@
+#all {
+  padding-top: 100px;
+  width: 700px;
+  margin: auto;
+  font-family: sans-serif;
+}
+.contactlink {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-position: bottom;
+  margin-right: 140px;
+}
+.contactlink:hover {
+  background-position: 0 0;
+}
+#gmail {
+  background-image: url(../images/gmail.png);
+}
+#twitter {
+  background-image: url(../images/twitter.png);
+}
+#stackoverflow {
+  background-image: url(../images/stackoverflow.png);
+}
