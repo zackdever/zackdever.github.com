@@ -35,7 +35,7 @@ p {
   line-height: 25px;
   /*margin-left: 50px;*/
 }
-.contactlink {
+img.contactlink {
   padding: 0;
   float: left;
   width: 100px;
@@ -44,22 +44,10 @@ p {
   background-repeat: no-repeat;
   margin: 50px 0 50px 50px;
 }
-.contactlink:hover {
+img.contactlink:hover {
   -webkit-transition: -webkit-filter .5s;
   -webkit-filter: invert(1);
 }
 #contact p {
   clear: both;
-}
-#gmail {
-  background-image: url(../images/gmail.png);
-}
-#twitter {
-  background-image: url(../images/twitter.png);
-}
-#github {
-  background-image: url(../images/github.png);
-}
-#stackoverflow {
-  background-image: url(../images/stackoverflow.png);
 }
