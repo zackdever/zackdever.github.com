@@ -37,7 +37,6 @@ p {
 }
 img.contactlink {
   padding: 0;
-  float: left;
   width: 100px;
   height: 100px;
   background-position: bottom;
@@ -48,6 +47,25 @@ img.contactlink:hover {
   -webkit-transition: -webkit-filter .5s;
   -webkit-filter: invert(1);
 }
-#contact p {
-  clear: both;
+ul#contact li {
+  display: inline;
+  list-style: none;
+}
+@media (max-width: 520px) {
+  #all {
+    padding-top: 10px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 70px;
+  }
+  ul#contact li {
+    display: block;
+  }
+  ul#contact li:last-of-type {
+    margin-bottom: 25px;
+  }
+  img.contactlink {
+    margin: 25px 0 0 25px;
+  }
 }
