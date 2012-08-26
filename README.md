@@ -22,9 +22,3 @@ But for anything else, like changing a base or include, or adding a file, you'll
 
     $ script/compile
 
-Deploy
-------
-This pretty much consists of zipping up `./root` to drop in staticloud.
-
-    $ script/zip
-
