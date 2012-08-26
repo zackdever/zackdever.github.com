@@ -21,7 +21,7 @@ body {
 }
 #all {
   padding-top: 100px;
-  width: 700px;
+  max-width: 520px;
   margin: auto;
   font-family: 'ff-meta-web-pro', helvetica, arial, sans-serif;
 }
