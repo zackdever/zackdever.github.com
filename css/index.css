@@ -54,18 +54,14 @@ ul#contact li {
 @media (max-width: 520px) {
   #all {
     padding-top: 10px;
-    text-align: center;
   }
   h1 {
     font-size: 70px;
   }
-  ul#contact li {
-    display: block;
-  }
-  ul#contact li:last-of-type {
-    margin-bottom: 25px;
+  h1, p {
+    padding: 0 10px;
   }
   img.contactlink {
-    margin: 25px 0 0 25px;
+    margin: 25px 0 25px 25px;
   }
 }
