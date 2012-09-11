@@ -35,6 +35,9 @@ p {
   line-height: 25px;
   /*margin-left: 50px;*/
 }
+.project h3, .project p {
+  display: inline;
+}
 img.contactlink {
   padding: 0;
   width: 100px;
