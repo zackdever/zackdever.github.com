@@ -1,4 +1,4 @@
-zever.github.com
+zackdever.github.com
 ================
 
 A simple static site for [zackdever.com][0], built with [Jade][1], kindly designed by [@winners84][2], and hosted with [Github Pages][3].
