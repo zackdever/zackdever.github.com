@@ -1,1 +1,1 @@
-exclude: [package.json, pug, script]
+exclude: [package.json, package-lock.son, pug, script, CNAME, READEME.md]
