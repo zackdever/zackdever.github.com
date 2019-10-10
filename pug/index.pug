@@ -1,0 +1,57 @@
+doctype html
+html(lang="en")
+  head
+    title Zack Dever
+    link(type='text/css', rel='stylesheet', href='./css/index.css')
+    link(rel='icon', type='image/x-icon', href='http://en.gravatar.com/userimage/27127715/bf56b5305ddc4dd9e2b3a1381b4cb52d.jpeg')
+    script(src='http://use.typekit.net/hav0ecf.js')
+    script().
+      try { Typekit.load(); } catch(e) {}
+    // Global site tag (gtag.js) - Google Analytics
+    script(async src="https://www.googletagmanager.com/gtag/js?id=UA-26216738-1")
+    script().
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-26216738-1');
+
+  body
+    #grey-strip
+    #all
+      h1 Hello, world.
+      p
+        | My name is Zack and I am a software developer,
+        | <i>aspiring to be</i> avid backpacker, and supporter of the oxford comma.
+        | You may find me bumbling around, though the below are more expedient.
+
+      ul#contact
+        li
+          a(href='http://github.com/zackdever', title='github.com/zackdever')
+            img(src='/images/github.png').contactlink
+        li
+          a(href='http://stackoverflow.com/users/962091/zackdever', title='stackoverflow.com/users/962091/zackdever')
+            img(src='/images/stackoverflow.png').contactlink
+        li
+          a(href='mailto:zack@zackdever.com', title='zack@zackdever.com')
+            img(src='/images/gmail.png').contactlink
+
+      h2 Projects
+      .project
+        h3
+          a(href='http://promtapp.com') Promt
+        p  - unfashionably on time
+
+      .project
+        h3
+          a(href='http://github.com/zackdever/time') time.js
+        p  - a tiny date-agnostic time parser
+
+      .project
+        h3
+          a(href='https://chrome.google.com/webstore/detail/bhedmeenahodbkhkoljphljbkphjjgib'
+            title='Basecamp App for Chrome Browser') Basecamp Shortcut
+        p  - a Chrome App
+          | (
+          a(href='https://chrome.google.com/webstore/detail/ggkjkkoebodihinoacoocgnkbjojhnpf'
+            title='Basecamp Classic App for Chrome Browser') classic
+          | )

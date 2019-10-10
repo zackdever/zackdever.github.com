@@ -1,4 +1,4 @@
 #!/bin/sh
-# Compile Jade files.
+# Compile Pug files.
 
-exec jade jade/*.jade --out .
+exec pug pug/*.pug --out .
