@@ -20,38 +20,46 @@ html(lang="en")
     #all
       h1 Hello, world.
       p
-        | My name is Zack and I am a software developer,
-        | <i>aspiring to be</i> avid backpacker, and supporter of the oxford comma.
+        | My name is Zack.
+        br
+        | For work I develop software, but otherwise I like being outside.
+        br
         | You may find me bumbling around, though the below are more expedient.
 
       ul#contact
+        li
+          a(href='mailto:zack@zackdever.com', title='zack@zackdever.com')
+            img(src='/images/gmail.png').contactlink
         li
           a(href='http://github.com/zackdever', title='github.com/zackdever')
             img(src='/images/github.png').contactlink
         li
           a(href='http://stackoverflow.com/users/962091/zackdever', title='stackoverflow.com/users/962091/zackdever')
             img(src='/images/stackoverflow.png').contactlink
-        li
-          a(href='mailto:zack@zackdever.com', title='zack@zackdever.com')
-            img(src='/images/gmail.png').contactlink
 
       h2 Projects
+      .project
+        h3
+          a(href='https://www.pandora.com/search') Pandora Search
+        p - small team, built from scratch up w/ Clojure, Elasticsearch, & Python
+      .project
+        h3
+          a(href='https://github.com/zackdever/time') time.js
+        p  - a tiny date-agnostic time parser
       .project
         h3
           a(href='http://promtapp.com') Promt
         p  - unfashionably on time
 
-      .project
-        h3
-          a(href='http://github.com/zackdever/time') time.js
-        p  - a tiny date-agnostic time parser
 
+      br
+      h2 Social
       .project
         h3
-          a(href='https://chrome.google.com/webstore/detail/bhedmeenahodbkhkoljphljbkphjjgib'
-            title='Basecamp App for Chrome Browser') Basecamp Shortcut
-        p  - a Chrome App
-          | (
-          a(href='https://chrome.google.com/webstore/detail/ggkjkkoebodihinoacoocgnkbjojhnpf'
-            title='Basecamp Classic App for Chrome Browser') classic
-          | )
+          a(href='https://flickr.com/people/zackdever/') Flickr
+      .project
+        h3
+          a(href='https://www.strava.com/athletes/2001206') Strava
+      .project
+        h3
+          a(href='https://www.instagram.com/zackdever/') Instagram
