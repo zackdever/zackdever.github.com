@@ -23,6 +23,6 @@ A watch script is useful to recompile existing pug templates if they change.
 
     $ script/watch
 
-[0]: http://zackdever.com/
-[1]: http://philwinfield.com/
-[2]: http://pages.github.com/
+[0]: https://zackdever.com/
+[1]: https://philwinfield.com/
+[2]: https://pages.github.com/
